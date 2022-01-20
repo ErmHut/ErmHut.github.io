@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luxurious+Roman&family=Mochiy+Pop+P+One&display=swap');
+
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: Mochiy Pop P One;
+}
+
+p {
+	font-size: 18px;
+	text-align: justify;
+	column-count: 3;
+	line-height: 1.5;
+	margin: 15px;
+	font-family: Luxurious Roman;
+}
+
+.a {
+	font-size: 40px;
+	font-family: Architects Daughter;
+}
+
+html {
+	background: linear-gradient(90deg, rgba(50,57,190,1) 31%, rgba(141,31,225,1) 58%);
+	color: white;
+}

@@ -1,0 +1,40 @@
+html {
+	background-color: #ad996d;
+}
+
+.first {
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.second {
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	margin-top: 15%;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.third {
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	margin-top: 13%;
+	height: 300px;
+}
+
+.img {
+	width: 25%;
+	margin: 30px;
+
+}
+
+p {
+	color: red;
+}

@@ -1,0 +1,19 @@
+.brown {
+	color: white;
+	background-color: brown;
+}
+
+.orange {
+	color: white;
+	background-color: orange;
+}
+
+.red {
+	color: white;
+	background-color: red;
+}
+
+div {
+	padding: 30px;
+	margin: 10px;
+}

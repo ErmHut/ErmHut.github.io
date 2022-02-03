@@ -1,0 +1,40 @@
+p {
+	font-size: 20px;
+}
+
+
+.bild1 {
+	height: 250px;
+	float: left;
+	margin: 30px;
+	border: 8px dotted lightgreen;
+}
+
+.bild2 {
+	height: 500px;
+	float: right;
+	margin: 30px;
+	border: 8px dashed lightblue;
+
+}
+
+.bild3 {
+	height: 300px;
+	float: left;
+	margin: 30px;
+	border: 8px dotted red;
+}
+
+.bild4 {
+	height: 250px;
+	float: right;
+	margin: 10px;
+	border: 8px dashed lightseagreen;
+}
+
+.bild5 {
+	height: 250px;
+	float: left;
+	margin: 10px;
+	border: 8px dotted skyblue;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Redressed&display=swap');
+
+body {
+	margin: 0;
+}
+
+header {
+	height: 400px;
+	background-image: url('img1.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	padding: 30px;
+	background: linear-gradient(90deg, rgba(55,191,0,0.804359243697479) 43%, rgba(55,191,0,0.804359243697479) 58%);
+	border-radius: 20px;
+	font-family: 'Oswald';
+}
+
+main {
+	padding: 100px;
+	background: linear-gradient(90deg, rgba(27,195,24,0.7987570028011204) 43%, rgba(27,195,24,0.804359243697479) 58%);
+}
+
+main p {
+	font-size: 20px;
+	column-count: 2;
+	font-family: 'Redressed';
+}
+
+#info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px;
+	background: linear-gradient(0deg, rgba(63,249,212,1) 32%, rgba(27,195,24,1) 97%);
+}
+
+footer {
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url('img2.jpg');
+	background-size: cover;
+}
+
+footer p {
+	border-radius: 20px;
+	background: linear-gradient(90deg, rgba(77,209,217,0.804359243697479) 43%, rgba(77,216,217,0.7959558823529411) 58%);
+	padding: 30px;
+	font-size: 20px;
+	font-family: 'Bebas Neue';
+}

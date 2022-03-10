@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+body {
+	margin: 0;
+}
+
+nav {
+	background-color: #2a76b0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+
+nav img {
+	height: 70px;
+	border-radius: 50%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav ul li a {
+	margin: 20px;
+	padding: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	border-radius: 15px;
+	font-family: Hubballi;
+}
+
+nav ul li a:hover {
+	background: linear-gradient(90deg, rgba(144,48,98,1) 10%, rgba(164,39,60,1) 61%);
+}

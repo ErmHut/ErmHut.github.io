@@ -1,0 +1,178 @@
+/*
+*
+*Title: Basic Website About;
+*Author: Ermi;
+*Date: 17.03.2022;
+*/
+
+
+
+/*********************************************** General Styling ***********************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+/*Navigation*/
+nav {
+	background: linear-gradient(90deg, rgba(214,32,39,1) 0%, rgba(0,0,0,1) 100%);
+	display: flex;
+	justify-content: space-between; /*To make the links on the right side and the logo on the left side*/
+	align-items: center;
+	padding: 30px;
+}
+
+nav img {
+	height: 70px;
+	border-radius: 50%; /*To make the logo round*/
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none; /*To remove the bullet points*/
+}
+
+nav ul li a {
+	margin: 20px;
+	padding: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none; /*To remove the underline*/
+	background-color: #5e5e5c;
+	border-radius: 15px;
+	font-family: Playfair Display;
+}
+
+/*Hover changes the element when we move the mouse over it*/
+nav ul li a:hover {
+	background: linear-gradient(90deg, rgba(144,48,98,1) 10%, rgba(164,39,60,1) 61%);
+}
+
+header {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('header-background.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 30px;
+	background-color: rgb(179, 179, 179);
+	padding: 10px;
+	border-radius: 15px;
+}
+
+/*Main*/
+main {
+	color: white;
+	background: linear-gradient(90deg, rgba(38,35,35,1) 32%, rgba(97,11,11,1) 66%);
+	padding: 60px;
+	font-size: 20px;
+}
+
+main p {
+	padding: 20px;
+}
+
+/* Section */
+section {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+section .left {
+	width: 50%;
+	background-color: #8f1515;
+	padding: 30px;
+}
+
+section .right {
+	width: 50%;
+	background-color: black;
+	color: white;
+	padding: 30px;
+}
+
+footer {
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(footer-background.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+footer p {
+	background-color: rgb(237, 64, 64);
+	padding: 10px;
+	border-radius: 15px;
+	font-size: 20px;
+}
+
+
+
+/****************** Page Styling ******************/
+
+/* Home Page */
+#home header {
+	background-image: url(header-background.jpg);
+}
+
+#home #pcs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: radial-gradient(circle, rgba(113,18,18,1) 25%, rgba(28,27,27,1) 68%);
+}
+
+#home #pcs img {
+	width: 200px;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+/* Contact Page */
+#contact header {
+	background-image: url(header-background-contact.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+#contact main p {
+	font-size: 30px;
+	text-align: center;
+}
+
+#contact nav {
+	background: linear-gradient(90deg, rgba(106,106,106,1) 25%, rgba(181,181,181,1) 68%);
+}
+
+#contact header h1 {
+	background-color: #5e5e5c;
+	color: white;
+}
+
+#contact main {
+	background: linear-gradient(90deg, rgba(185,185,185,1) 25%, rgba(121,119,119,1) 68%);
+}
+
+#contact footer {
+	background-image: url(footer-background-contact.jpg);
+}

@@ -1,0 +1,237 @@
+/*
+*
+*Title: Projekt 3;
+*Author: Ermi;
+*Date: 07.05.2022;
+*/
+
+
+
+/*********************************************** General Styling ***********************************************/
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Inter:wght@500&family=Josefin+Sans:wght@500&family=Koulen&family=Nunito+Sans:wght@200&family=Roboto+Mono&display=swap');
+
+/*Body*/
+body {
+	margin: 0;
+	font-family: Inter;
+}
+
+/*Navigation*/
+nav {
+	background-color: #232624;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	width: calc(100% - 60px);
+	z-index: 1;
+}
+
+nav img {
+	height: 70px;
+	border-radius: 50%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav ul li a {
+	margin: 20px;
+	padding: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	background-color: #000000;
+	border-radius: 15px;
+	font-family: Josefin Sans;
+}
+
+/*Hover changes the element when we move the mouse over it*/
+nav ul li a:hover {
+	background: linear-gradient(90deg, rgba(14,33,32,1) 0%, rgba(10,58,59,1) 100%);
+}
+
+
+header {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('header-background.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 30px;
+	background-color: rgb(179, 179, 179);
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.info {
+	color: white;
+	background: linear-gradient(90deg, rgba(14,33,32,1) 0%, rgba(10,58,59,1) 100%);
+	padding: 60px;
+	font-size: 20px;
+	flex-direction: column;
+}
+
+.info p {
+	padding: 20px;
+}
+
+/*Section*/
+section {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+section .left {
+	width: 50%;
+	background-color: #09332a;
+	color: white;
+	padding: 30px;
+}
+
+section .right {
+	font-size: 20px;
+	width: 50%;
+	background-color: #124238;
+	color: white;
+	padding: 30px;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	background-color: #0b3b2f;
+	color: white;
+	padding: 30px;
+}
+
+/*Footer*/
+footer {
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(footer-background.jpg);
+	background-position: center;
+	background-size: cover;
+	font-family: Barlow Condensed;
+}
+
+footer p {
+	background-color: #0a6951;
+	padding: 10px;
+	border-radius: 15px;
+	font-size: 20px;
+	color: white;
+}
+
+/*Article*/
+.products {
+	margin: 0;
+	background-color: #5f78a1;
+}
+
+article {
+	position: relative;
+	margin: 30px;
+}
+
+article .image {
+	width: 400px;
+	height: 280px;
+	background-image: url(background.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+article .text {
+	width: 400px;
+	height: 280px;
+	background-color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+article .text .mini-header {
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+article .text h1 {
+	font-family: Nunito Sans;
+}
+
+article .text .mini-header span {
+	margin: 10px;
+	font-family: Roboto Mono;
+}
+
+article .text .mini-footer {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: darkgrey;
+	font-size: 15px;
+	width: 96%;
+}
+
+article h1 {
+	margin: 10px;
+}
+
+article .box {
+	background-color: red;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 282px;
+	left: 0px;
+}
+
+/*Main*/
+main {
+	margin: 0;
+	background-color: #5f78a1;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+
+/*Image*/
+.shkodra {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	border: double 10px red;
+  	border-radius: 15px;
+  	margin-bottom: 15px;
+}
+
+h1, h2 {
+	font-family: Koulen;
+}

@@ -1,0 +1,189 @@
+nav {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+nav img {
+	height: 70px;
+	border-radius: 50%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav ul li a {
+	margin: 20px;
+	padding: 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+p .br {
+	font-weight: bold;
+}
+
+img {
+	margin-top: 30px;
+	width: 350px;
+}
+
+div {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.summer {
+	background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 98px;
+    left: 61px;
+}
+
+.brick {
+	background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 98px;
+    left: 465px;
+}
+
+.renovated {
+	background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 98px;
+    left: 867px;
+}
+
+.barn {
+	background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 98px;
+    left: 1269px;
+}
+
+.brick1 {
+	background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 507px;
+    left: 464px;
+}
+
+.summer1 {
+	background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 507px;
+    left: 61px;
+}
+
+.barn1 {
+	background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 507px;
+    left: 1269px;
+}
+
+.renovated1 {
+	background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 507px;
+    left: 867px;
+}
+
+.about {
+	margin-top: 60px;
+	margin-left: 50px;
+	font-size: 25px;
+}
+
+.lorem {
+	margin-left: 50px;
+}
+
+article {
+	position: relative;
+}
+
+article .image {
+	width: 400px;
+	height: 280px;
+	background-image: url(background.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+article .text {
+	width: 400px;
+	height: 280px;
+	background-color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+article .text .mini-header {
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+article .text .mini-header span {
+	margin: 10px;
+}
+
+article .text .mini-footer {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: darkgrey;
+	font-size: 15px;
+	width: 96%;
+}
+
+article h1 {
+	margin: 10px;
+}
+
+.people {
+	margin-right: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: Roboto;
+}
+
+.contact {
+	text-align: center;
+	background-color: gray;
+}

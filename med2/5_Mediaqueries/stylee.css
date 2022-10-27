@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 80px;
+	color: white;
+}
+
+footer div {
+	margin: 10px;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	background-color: white;
+	color: blue;
+}
+
+@media (min-width: 768px) {
+	footer {
+		flex-direction: row;
+	}
+
+	footer div {
+	text-align: left;
+}
+
+	footer div {
+		width: 25%;
+	}
+
+	footer div:last-child {
+		width: 50%;
+	}
+}

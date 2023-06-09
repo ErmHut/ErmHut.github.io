@@ -1,0 +1,1 @@
+alert("Welcome to my Media Project! Press OK to continue.")
